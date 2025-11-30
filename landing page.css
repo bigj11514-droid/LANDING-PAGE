@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* removing default a styles */
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+}
+/* adding styles for header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #350233;
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 60px;
+}
+a:hover {
+    color: rgb(48, 226, 42);
+    transition: 1.9s;
+}
+li {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+span {
+    color: rgb(221, 177, 230);
+}
+main{
+    background-color: #350233;
+    background-size: 100% 100%;
+    color: white;
+    height: 60vh;
+    display: flex;
+}
+#description{
+    padding-left: 80px;
+    padding-top: 60px;
+    padding-right: 80px;
+    width: 800px;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.25rem;
+}
+button{
+    margin-top: 25px;
+    padding: 10px 50px;
+    font-size: 16px;
+    background-color: #380b37;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 8px;
+    cursor: pointer;
+    border-color: rgb(51, 145, 145);
+}
+h1{
+    font-size: 48px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 10px;
+    text-shadow: #924192;
+    font-display: fallback; 
+}
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600px;
+}
+#info{
+    background-color: #924192;
+}
+hr {background-color: rgb(143, 53, 143);}
+button:hover{
+    background-color: #631160;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
